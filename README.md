@@ -1,8 +1,6 @@
 Tiny-Talk Core Constants
 The 50 emojis that make universal communication possible.
-"""
 
-CORE_EMOJI = {
     # === PEOPLE ===
     'PERSON': '👤',    # Generic person
     'MAN': '👨',      # Male
@@ -68,10 +66,10 @@ CORE_EMOJI = {
     'SAD': '💔',      # Sad/broken
     'HELP': '🆘',     # Need/assist
     'DANGER': '⚠️',   # Warning/danger
-}
+
 
 # Name meanings database
-NAME_MEANINGS = {
+
     'steven': ['👑', '✨'],      # Crown
     'stephen': ['👑', '✨'],     # Crown
     'steve': ['👑'],            # Crown (short)
@@ -87,10 +85,10 @@ NAME_MEANINGS = {
     'elizabeth': ['🤲', '✨'],  # God is my oath
     'london': ['🌉', '🌊'],     # Bridge + river
     'paris': ['🗼', '❤️'],      # Tower + love
-}
+    
 
 # Word mapping rules
-WORD_RULES = {
+
     # Concrete nouns
     'man': '👨',
     'woman': '👩',
@@ -138,4 +136,4 @@ WORD_RULES = {
     'hello': '👋',
     'hi': '👋',
     'thank': '🙏',
-}
+
